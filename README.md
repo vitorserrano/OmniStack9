@@ -14,7 +14,7 @@
   
   - Após a configuração do Ambiente, com a instalação do Node.JS (10.16.3), Instalação do Yarn (1.19.1) e Instalação da IDE (Visual Studio Code), é preciso instalar as dependências necessárias para o projeto. Para isso, basta abrir o terminal do VSCode e executar os comandos abaixo.
   
-  - **_Primeiro de tudo, é necessário iniciar o yarn com o seguinte comando:_** ``` yarn init -y```
+  - **_Primeiramente, é necessário iniciar o yarn com o seguinte comando:_** ``` yarn init -y```
   
   - Após isso, aidiconar as dependências:
   
@@ -22,7 +22,7 @@
   ```
   yarn add express  
   ```
-  2. A segunda dependência é a "Nodemon", que é um utilitário que irá monitorar todas as alterações nos arquivos da aplicação e reiniciar automaticamente o servidor quando for necessário. 
+  2. A segunda dependência é a "Nodemon", o qual é um utilitário que irá monitorar todas as alterações nos arquivos da aplicação e reiniciar automaticamente o servidor quando for necessário. 
   ```
   nodemon = yarn add nodemon -D (É passado o -D para que seja feito somente em desenvolvimento)
   ```
@@ -36,19 +36,19 @@
   ```
   yarn add mongoose
   ```
-  4. Por fim, a quarta dependência é a "Multer". O Multer, é uma biblioteca para que o express entenda os diferentes tipos de dados, como por exemplo Imagens(PNG, JPG, etc), por padrão do projeto está pegando o JSON.
+  4. Por fim, a quarta dependência é a "Multer". O Multer é uma biblioteca para que o express entenda os diferentes tipos de dados, como por exemplo Imagens(PNG, JPG, etc), por padrão do projeto está pegando o JSON.
   ```
   yarn add multer
   ```
   
   ## Comandos Básicos
   
-  1. O comando "code ." serve para iniciar o Visual Studio Code, dentro de qualquer pasta que você desejar.
+  1. O comando "code ." serve para iniciar o Visual Studio Code dentro de qualquer pasta que você desejar.
   
   2. Dentro do terminal do VSCode, é possível realizar os seguintes comandos.  
      - Executar o servidor node: ```node src/server.js```
      - Parar a execução do servidor Node: ```CTRL+C```
-     - iniciar o servidor, após criar o script em "pakage.json": ```yarn dev```
+     - iniciar o servidor após criar o script em "pakage.json": ```yarn dev```
   
   
   
