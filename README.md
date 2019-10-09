@@ -1,15 +1,16 @@
+
 # OmniStack9
 
 ![omnistack-wallpaper-1920x1080](https://user-images.githubusercontent.com/51726945/66476873-06ec6000-ea6d-11e9-90a6-383a05e51300.png)
 
 
-  ## Introdução do Projeto
+  ## Introdução
   
   - Este repositório tem o objetivo de criar uma aplicação Web e Mobal com criação, edição e remoção de Spots, tendo resposta em Tempo Real. A resposta em Tempo Real, irá funcionar para reserver um Spot pelo App e Aceitar/Recusar pelo Web, entre outras coisas. 
   
   - No projeto será utilizado a stack de Node.JS, ReactJS e Reac Native com o uso do MongoDB para banco de dados e também, Insomnia para realizar testes de API.
   
-  ## Instalar Dependências
+  ## Dependências
   
   - Após a configuração do Ambiente, com a instalação do Node.JS (10.16.3), Instalação do Yarn (1.19.1) e Instalação da IDE (Visual Studio Code), é preciso instalar as dependências necessárias para o projeto. Para isso, basta abrir o terminal do VSCode e executar os comandos abaixo.
   
@@ -40,9 +41,10 @@
   yarn add multer
   ```
   
-  ## Comandos Básicos.
+  ## Comandos Básicos
   
   1. O comando "code ." serve para iniciar o Visual Studio Code, dentro de qualquer pasta que você desejar.
+  
   2. Dentro do terminal do VSCode, é possível realizar os seguintes comandos.  
      - Executar o servidor node: ```node src/server.js```
      - Parar a execução do servidor Node: ```CTRL+C```
