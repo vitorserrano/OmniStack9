@@ -8,7 +8,7 @@
   
   - Este repositório tem o objetivo de criar uma aplicação Web e Mobal com criação, edição e remoção de Spots, tendo resposta em Tempo Real. A resposta em Tempo Real, irá funcionar para reserver um Spot pelo App e Aceitar/Recusar pelo Web, entre outras coisas. 
   
-  - No projeto será utilizado a stack de Node.JS, ReactJS e Reac Native com o uso do MongoDB para banco de dados e também, Insomnia para realizar testes de API.
+  - No projeto será utilizado a stack de Node.js, ReactJS e React Native com o uso do MongoDB para banco de dados e também, Insomnia para realizar testes de API.
   
   ## Dependências
   
