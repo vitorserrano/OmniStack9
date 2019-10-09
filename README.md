@@ -12,6 +12,11 @@
   ## Instalar Dependências
   
   - Após a configuração do Ambiente, com a instalação do Node.JS (10.16.3), Instalação do Yarn (1.19.1) e Instalação da IDE (Visual Studio Code), é preciso instalar as dependências necessárias para o projeto. Para isso, basta abrir o terminal do VSCode e executar os comandos abaixo.
+  
+  - **_Primeiro de tudo, é necessário iniciar o yarn com o seguinte comando:_** ``` yarn init -y```
+  
+  - Após isso, aidiconar as dependências:
+  
   1. A primeira dependência é a "Express", que irá fazer as definicões de rotas. 
   ```
   yarn add express  
