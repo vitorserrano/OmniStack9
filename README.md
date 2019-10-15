@@ -1,8 +1,17 @@
+<h1 align="center">       
+  <br>🚀 OmniStack 9.0 <br>
+</h1>
 
-# OmniStack 9.0
+  <h4 align="center">
+    <a href="#introdução">Introdução</a> |
+    <a href="#back-end">Back-End</a> |
+    <a href="#front-end">Front-End</a> |
+    <a href="#mobile">Mobile</a> |
+    <a href="#comandos-básicos">Comandos</a> |
+    <a href="#erros-com-ubuntu">Erros com Ubuntu</a>
+  </h4>
 
-![omnistack-wallpaper-1920x1080](https://user-images.githubusercontent.com/51726945/66476873-06ec6000-ea6d-11e9-90a6-383a05e51300.png)
-
+![omnistack-wallpaper-1920x1080](https://user-images.githubusercontent.com/51726945/66866288-5e0f9a80-ef6f-11e9-965c-a84004951792.png)
 
   ## Introdução
   
@@ -10,7 +19,8 @@
   
   - No projeto será utilizado a stack de Node.js, ReactJS e React Native com o uso do MongoDB para banco de dados e também, Insomnia para realizar testes de API.
   
-  ## Dependências do Back-End (Node.js)
+  
+  ## Back-End
   
   - Após a configuração do Ambiente, com a instalação do Node.JS (10.16.3), Instalação do Yarn (1.19.1) e Instalação da IDE (Visual Studio Code), é preciso instalar as dependências necessárias para o projeto. Para isso, basta abrir o terminal do VSCode e executar os comandos abaixo.
   
@@ -45,13 +55,12 @@
   yarn add cors
   ```
   
-  ## Criando o Front-End Web (ReactJS)
   
-  1. Realizar o comando a seguir, na pasta da aplicação "aula" ```yarn create react-app frontend```
-  2. Depois de criar é necessário iniciar o backend, desenvolvido anteriormente com o comando: ```yarn dev``` e deixa-lo    aberto.
-  3. Após isso, basta abrir o projeto e iniciar o Yarn, com este comando: ```yarn start```
+  ## Front-End
   
-  ## Dependêncas do Front-End Web (ReactJS)
+  - Realizar o comando a seguir, na pasta da aplicação "aula" ```yarn create react-app frontend```
+  - Depois de criar é necessário iniciar o backend, desenvolvido anteriormente com o comando: ```yarn dev``` e deixa-lo    aberto.
+  - Após isso, basta abrir o projeto e iniciar o Yarn, com este comando: ```yarn start```   
   
   1. A primeira dependência é a "Axios". Axios é um cliente HTTP, que funciona tanto no browser quanto em Node.js. A biblioteca é basicamente uma API que sabe interagir tanto com XMLHttpRequest quanto com a interface http do node. Isso significa que o mesmo código utilizado para fazer requisições ajax no browser também funciona no servidor. Além disso, as requisições feitas através da biblioteca retornam uma promise, compatível com a nova versão do JavaScript - ES6.
   ```
@@ -62,14 +71,13 @@
   yarn add react-router-dom
   ```
   
-  ## Criando o ambiente Mobile (React Native com Expo) 
   
-  1. O primeiro passo, é para a instalação do Expo, utilizando o comando:```npm install -g expo-cli realizar```
-  2. O segundo passo, é abrir a pasta que deseja criar o projeto mobile e excutar este comando:```expo init mobile``` (o mobile é o nome da pasta a ser criada, pode ter qualquer nome).
-  3. Por fim, deixar rodando com o comando: ````yarn start```
+  ## Mobile
   
-  ## Dependêncas Mobile (React Native)
-  
+  - O primeiro passo, é para a instalação do Expo, utilizando o comando:```npm install -g expo-cli realizar```
+  - O segundo passo, é abrir a pasta que deseja criar o projeto mobile e excutar este comando:```expo init mobile``` (o mobile é o nome da pasta a ser criada, pode ter qualquer nome).
+  - Por fim, deixar rodando com o comando: ````yarn start``` 
+    
   1. A primeira dependência a ser adicionada é a "React-Navigation", para navegações dentro do React Native (mais utilizada no momento).
   ```
   yarn add react-navigation
@@ -78,6 +86,11 @@
   ```
   expo install react-native-gesture-handler react-native-reanimated
   ```
+  3. A terceira depedência para a aplicação mobile é a "Axios", a mesma dependência já adicionada/configurada no projeto Back-End, anteriormente.
+  ```
+  yarn add axios
+  ```
+  
   
   ## Comandos Básicos
   
@@ -88,7 +101,8 @@
      - Parar a execução do servidor Node: ```CTRL+C```
      - iniciar o servidor após criar o script em "pakage.json": ```yarn dev```
   
-  ## Experiências de Usabilidade com o Ubuntu:
+  
+  ## Erros com Ubuntu:
   
   1. Geralmente, acontece muito problema de permissão negada (pelo menos no meu computador) então, é sempre necessário adicionar o comando ```sudo``` para executar os comandos como super usuário.
   2. Também, tive alguns problemas ao iniciar as aplicações, dando o seguinte erro:  "React Native Error: ENOSPC: System limit for number of file watchers reached". Para resolver, executei os seguintes comandos: 
