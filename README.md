@@ -52,7 +52,12 @@
   ```
   5. Após criar o frontend, adicioar a quinta dependência "Cors". Com a implementação do CORS um domínio permite comunicação com outro de forma livre, independente do método da chamada (GET, POST, PUT ou DELETE) contanto que o domínio de destino tenha especificado esse tipo de comunicação.
   ```
-  yarn add cors
+  yarn add cors   
+  ```
+  
+  6. Por fim, adicionar o socket.io.
+  ```
+  yarn add socket.io
   ```
   
   
@@ -70,11 +75,15 @@
   ```
   yarn add react-router-dom
   ```
+  3. Por fim, adicionar o socket.io client.
+  ```
+  yarn add socket.io-client
+  ```  
   
   
   ## Mobile
   
-  - O primeiro passo, é para a instalação do Expo, utilizando o comando:```npm install -g expo-cli realizar```
+  - O primeiro passo, é para a instalação do Expo, utilizando o comando:```npm install -g expo-cli```
   - O segundo passo, é abrir a pasta que deseja criar o projeto mobile e excutar este comando:```expo init mobile``` (o mobile é o nome da pasta a ser criada, pode ter qualquer nome).
   - Por fim, deixar rodando com o comando: ````yarn start``` 
     
@@ -89,6 +98,10 @@
   3. A terceira depedência para a aplicação mobile é a "Axios", a mesma dependência já adicionada/configurada no projeto Back-End, anteriormente.
   ```
   yarn add axios
+  ```
+  4. Por fim, adicionar o socket.io client.
+  ```
+  yarn add socket.io-client
   ```
   
   
